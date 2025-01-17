@@ -30,3 +30,37 @@ A simple Slackbot that provides live weather updates in response to user queries
    ```bash
    git clone https://github.com/yourusername/Weather-SlackBot.git
    cd Weather-SlackBot
+
+2. **Install Dependencies**
+   install all required Python libraries:
+    ```bash
+    pip install -r requirements.txt  
+
+3. **Set Up Environment Variables**
+   Create a .env file in the project directory with the following content:
+   ```bash
+   SLACK_BOT_TOKEN=your-slack-bot-token
+   SLACK_APP_TOKEN=your-slack-app-token
+   OPENWEATHER_API_KEY=your-openweather-api-key  
+   OPENAI_API_KEY=your-openai-api-key
+
+4. **Run the Bot**
+   Start your Slackbot using:
+   ```bash
+   python bot.py  
+
+5. **Test in Slack**
+   1. Add the bot to a channel or DM it directly.
+   2. Ask: "How is the weather?" or "How is the weather in New York?"
+   
+---
+
+### API References 📡
+[OpenWeatherMap API](https://openweathermap.org/api)
+[OpenAI API](https://platform.openai.com/api-keys)
+[Slack API Documentation](https://api.slack.com/docs)
+
+---
+### License 📜
+This project is licensed under the MIT License.
+
